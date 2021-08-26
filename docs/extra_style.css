@@ -14,11 +14,13 @@ ul,ol{
 .md-search__inner,.md-search__inner *{
     background-color: #ffffff;
     color: #555;
+}
+.md-search__inner{
     border: solid 1px #333;
 }
 .md-search__icon{
-    background-color: #485269;
-    color: #ffffff;
+    background-color: #485269 !important;
+    color: #ffffff !important;
 }
 
 /* Siv3Dから拝借*/

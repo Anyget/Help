@@ -11,10 +11,16 @@ ul,ol{
     background-color: #f9f9f9;
     color:#485269;
 }
-.md-search__input{
+.md-search__inner,.md-search__inner *{
     background-color: #ffffff;
     color: #555;
+    border: solid 1px #333;
 }
+.md-search__icon{
+    background-color: #485269;
+    color: #ffffff;
+}
+
 /* Siv3Dから拝借*/
 .md-typeset h1 {
     /*font-size: 24pt;*/

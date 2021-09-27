@@ -1,0 +1,679 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-6.1.6">
+    
+    
+      
+        <title>3. テンプレートについて - >>Anyget 説明書</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6910b76c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../extra_style.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#3" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="&gt;&gt;Anyget 説明書" class="md-header-nav__button md-logo" aria-label=">>Anyget 説明書">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            >>Anyget 説明書
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              3. テンプレートについて
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="&gt;&gt;Anyget 説明書" class="md-nav__button md-logo" aria-label=">>Anyget 説明書">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    >>Anyget 説明書
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      トップページ
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    <label class="md-nav__link" for="nav-2">
+      チュートリアル
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="チュートリアル" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        チュートリアル
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../00_Introduction/" class="md-nav__link">
+      0. イントロダクション
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../01_Basic/" class="md-nav__link">
+      1. 作業の流れ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../02_Control/" class="md-nav__link">
+      2. 投稿を操作する
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        3. テンプレートについて
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      3. テンプレートについて
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    3.1 テンプレートとは？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    3.2 テンプレートを設定する
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 テンプレートを設定する">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    テンプレート記法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    ラベル
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33" class="md-nav__link">
+    3.3 変数の詳細設定を行う
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      リファレンス
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="リファレンス" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        リファレンス
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Reference/MainPanel/" class="md-nav__link">
+      メインパネル
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Reference/SubPanels/" class="md-nav__link">
+      サブパネル
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Reference/Template/" class="md-nav__link">
+      テンプレート
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Reference/Settings/" class="md-nav__link">
+      設定
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Reference/ShortCut/" class="md-nav__link">
+      ショートカット
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      その他
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="その他" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        その他
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Other/Template_distribution/" class="md-nav__link">
+      テンプレートの配布
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    3.1 テンプレートとは？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    3.2 テンプレートを設定する
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 テンプレートを設定する">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    テンプレート記法
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    ラベル
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#33" class="md-nav__link">
+    3.3 変数の詳細設定を行う
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="3">3. テンプレートについて</h1>
+<p>テンプレートは、Anygetでの作業において使用される<strong>投稿の雛型</strong>です。</p>
+<p><a href="../01_Basic/">作業の流れ</a>のページではあらかじめ用意されたプリテンプレートを使用しましたが、この章ではより詳細な解説を行います。</p>
+<h2 id="31">3.1 テンプレートとは？</h2>
+<p>掲示板小説は、基本的に<strong>特定の雛型の連続</strong>という事ができます。
+例えば、このような小説を考えます。</p>
+<pre><code>1：名無し [sage]
+　こんにちは
+
+2：とおりすがり [sage]
+　さようなら
+
+3：名無し []
+　ぬるぽ
+
+4：名無し [sage]
+　&gt;&gt;3
+　ガッ
+</code></pre>
+
+<p>まず、この小説を<strong>分割</strong>してみましょう。</p>
+<pre><code>1：名無し [sage]
+　こんにちは
+</code></pre>
+
+<pre><code>2：とおりすがり [sage]
+　さようなら
+</code></pre>
+
+<pre><code>3：名無し []
+　ぬるぽ
+</code></pre>
+
+<pre><code>4：名無し [sage]
+　&gt;&gt;3
+　ガッ
+</code></pre>
+
+<p>すると、このように分けることが可能です。</p>
+<p>こうして分かれた投稿を見てみれば、どれもある種の<strong>規則性</strong>に沿っている事が分かります。つまり、</p>
+<ul>
+<li>下に行くにつれ増えていき、<code>&gt;&gt;</code>でアンカーを付けられている「<strong>番号</strong>」</li>
+<li>人によって違う場合もある「<strong>名前</strong>」</li>
+<li>空欄だったり<code>sage</code>だったりする<strong>メール欄</strong></li>
+<li>行頭が字下げされている「<strong>本文</strong>」</li>
+</ul>
+<p>……といった「変化しうる」存在と、</p>
+<ul>
+<li><code>：</code></li>
+<li><code>[</code></li>
+<li><code>]</code></li>
+</ul>
+<p>……のような<strong>変化しない</strong>存在が組み合わさって、一つの投稿を作り出しているのです。</p>
+<p>Anygetでは、前者を<strong>変数</strong>、後者を<strong>字の文</strong>と呼びます。</p>
+<h2 id="32">3.2 テンプレートを設定する</h2>
+<p>Anygetでは、「テンプレートを設定」パネル上部のテキストボックスに<strong>テンプレート記法</strong>でテンプレートを入力して「変更」ボタンをクリックすることでテンプレートを設定可能です。</p>
+<p>テンプレートを設定すると、メインパネル「レスの追加」モードの入力フォームが変化し、テンプレートの内容に応じて<strong>テキストボックス</strong>が配置されます。</p>
+<p>テンプレートは複数個設定でき、投稿単位で使い分けることもできます。</p>
+<h3 id="_1">テンプレート記法</h3>
+<p>この部はチュートリアルなので、最低限のテンプレート記法について記します。より詳細な記述については、<a href="/docs/Reference/Template.md">テンプレートリファレンス</a>を参照してください。</p>
+<p>前述の通り、テンプレートには<strong>変数</strong>と<strong>字の文</strong>がありますが、変数はさらに細分化することが可能です。この場合、<strong>一行変数</strong>と<strong>複数行変数</strong>です。一行変数は文字通り改行不能な変数で、複数行変数は改行可能な変数です。例えば複数行変数は「変数特定値メモ」パネルで利用できないとか、あるいは一行変数は<strong>字下げ</strong>出力設定が使えないとか言った風に、これらの間にはさまざまな違いがあります。</p>
+<p>テンプレートの表記は、基本となる字の文の中で、宣言したい変数の名前を特定の記号で<strong>囲む</strong>形で行われます。一行変数の記号は<code>$</code>、複数行変数の記号は<code>|</code>です。つまり、例えば前述の小説のテンプレートは、</p>
+<pre><code>$番号$：$名前$ [$メール$]
+|本文|
+</code></pre>
+
+<p>という内容になっています。</p>
+<p>また、そのテンプレートを設定したことによって、「レスの追加」モードの入力フォームは、</p>
+<p><img alt="入力フォーム" src="../../assets/images/f68f868d09249f02541cb0f3577eb69cfe59de8fca373a7cf8a3c5ffebc7ec18.png" />  </p>
+<p>……というような配置に編集されています。</p>
+<h3 id="_2">ラベル</h3>
+<p>チュートリアルでは省略しますが、変数と字の文の他に<strong>ラベル</strong>という概念も存在します。</p>
+<p>詳しくは、<a href="../../Reference/Template/">テンプレートリファレンス</a>を参照してください。</p>
+<h2 id="33">3.3 変数の詳細設定を行う</h2>
+<p>変数は、ある程度のカスタマイズを必要とする場合があります。</p>
+<p>例えば先ほどの例で言うなら<code>$番号$</code>変数について考えてみましょう。まず<strong>並び替えの影響を受けない</strong>必要があります、つまり、「変数の詳細設定」パネルから「固定する」をオンにしなければいけません。それによって、他の変数は並び替えられても、番号は一貫して固定されたままの状態が作れます。</p>
+<p><img alt="固定された変数" src="../../assets/animations/sticky1.gif" />
+また、投稿を追加するたびに<strong>1ずつ増加</strong>すると便利です。掲示板における投稿番号というのは大体の場合連番なので、自動増加は手間を省いてくれるはずです。これを実現するためには「増加幅」に<code>1</code>を設定します。</p>
+<p><img alt="投稿を追加するたびに増加" src="../../assets/animations/adder.gif" /></p>
+<p>このように、変数1つ1つに別々の設定を行いたい場合は、変数の詳細設定を行うことで実現できます。</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../02_Control/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                2. 投稿を操作する
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../Reference/MainPanel/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                メインパネル
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.fd16492e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['tabs'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

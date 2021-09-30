@@ -401,6 +401,43 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
+    <label class="md-nav__link" for="nav-4">
+      その他
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="その他" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        その他
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Other/Template_distribution/" class="md-nav__link">
+      テンプレートの配布
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
@@ -537,7 +574,7 @@
 <p>テンプレートを設定すると、メインパネル「レスの追加」モードの入力フォームが変化し、テンプレートの内容に応じて<strong>テキストボックス</strong>が配置されます。</p>
 <p>テンプレートは複数個設定でき、投稿単位で使い分けることもできます。</p>
 <h3 id="_1">テンプレート記法</h3>
-<p>この部はチュートリアルなので、最低限のテンプレート記法について記します。より詳細な記述については、<a href="/docs/Reference/Template.md">テンプレートリファレンス</a>を参照してください。</p>
+<p>この部はチュートリアルなので、最低限のテンプレート記法について記します。より詳細な記述については、<a href="../../Reference/Template/">テンプレートリファレンス</a>を参照してください。</p>
 <p>前述の通り、テンプレートには<strong>変数</strong>と<strong>字の文</strong>がありますが、変数はさらに細分化することが可能です。この場合、<strong>一行変数</strong>と<strong>複数行変数</strong>です。一行変数は文字通り改行不能な変数で、複数行変数は改行可能な変数です。例えば複数行変数は「変数特定値メモ」パネルで利用できないとか、あるいは一行変数は<strong>字下げ</strong>出力設定が使えないとか言った風に、これらの間にはさまざまな違いがあります。</p>
 <p>テンプレートの表記は、基本となる字の文の中で、宣言したい変数の名前を特定の記号で<strong>囲む</strong>形で行われます。一行変数の記号は<code>$</code>、複数行変数の記号は<code>|</code>です。つまり、例えば前述の小説のテンプレートは、</p>
 <pre><code>$番号$：$名前$ [$メール$]
